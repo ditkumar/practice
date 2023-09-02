@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    height: 500px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    position: relative;
+    height:auto;
+}
+.story::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.stoyiran{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    border: 2px solid red;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.stoyiran img{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 999;
+}
+.full-screen{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    z-index: 20;
+}
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center; 
+}
+#container i{
+    color:red ;
+    font-size: 60px;
+    position: absolute;
+    top: 34%;
+    right: 40%;
+    opacity: 0.8;
+    display: none;
+    transition: all ease 0.3s;
+
+}
+#container{
+    position: relative;
+}
+#add-fren{
+    padding: 30px;
+}
+#add-fren img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center; 
+}
+#frend{
+    height: 40px;
+    background-color: blue;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    width: 110px;
+    cursor: pointer;
+}
+.remove{
+    height: 40px;
+    background-color:brown;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    width: 110px;
+    cursor: pointer;
+}
